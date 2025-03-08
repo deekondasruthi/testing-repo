@@ -12,13 +12,13 @@ public class LoginPage extends BaseClass {
 
 	Action_class action= new Action_class();
 
-	@FindBy(xpath ="//input[@id=\"form1Example1\"]" )
+	@FindBy(xpath ="//input[@placeholder='Enter Your Email']" )
 	private WebElement Email;
 
-	@FindBy(xpath ="//input[@id=\"form2Example27\"]" )
+	@FindBy(xpath ="//input[@placeholder='Enter Your password']" )
 	private WebElement pass;
 
-	@FindBy(xpath ="//button[@id=\"button\"]" )
+	@FindBy(xpath ="//button" )
 	private WebElement subbtn;
 
 	@FindBy(xpath ="//a[@class=\"to_login\"]" )

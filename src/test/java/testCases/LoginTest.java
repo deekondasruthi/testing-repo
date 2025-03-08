@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -21,13 +22,19 @@ public class LoginTest extends BaseClass {
 	@Test
 	public void loginTest()   throws Throwable{
 		loginPage=new LoginPage();
-		loginPage.Email(prop.getProperty("email"));
-		loginPage.Pass(prop.getProperty("pass"));
+		loginPage.Email("majeeth.h@babbujiventures.in");
+		loginPage.Pass("Test2@123");
+		
 		loginPage.SubBtn();
+		
+		
+		
+		
 		}
 	@Test
 	public void test() {
 		System.out.println("hello");
+		Assert.assertEquals(false, true);
 	}
 	
 	
