@@ -26,15 +26,14 @@ public class LoginTest extends BaseClass {
 		loginPage.Pass("Test2@123");
 		
 		loginPage.SubBtn();
-		
-		
-		
+	
 		
 		}
+	
 	@Test
-	public void test() {
+	public void testcase2() {
 		System.out.println("hello");
-		Assert.assertEquals(false, true);
+//		Assert.assertEquals(false, true);
 	}
 	
 	

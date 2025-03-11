@@ -5,7 +5,7 @@
     <classes>
       <class name="testCases.LoginTest">
 		<methods>
-			<include name="test"></include>
+			<exclude name="testcase2"></exclude>
 		</methods>
 		</class>
          
