@@ -16,8 +16,19 @@ public class HomePageTest extends BaseClass {
 		HomePage home=new HomePage(driver);
 		SoftAssert soft=new SoftAssert();
 		soft.assertEquals(isdisplay(home.getHometext()), true);
-		
-		
+		System.out.println(home.getHometext().getText());
+		soft.assertAll();
+	
+	}
+	
+	@Test
+	public void failtest() {
+		implicitWait(driver, 10);
+		HomePage home=new HomePage(driver);
+		SoftAssert soft=new SoftAssert();
+		System.out.println(home.getHometext().getText()+ " failed test case");
+		soft.assertEquals(isdisplay(home.getHometext()), false);
+		soft.assertAll();
 	}
 
 }

@@ -1,9 +1,11 @@
 package genaral;
 
 import org.openqa.selenium.By;
+import utilities.*;
 import org.openqa.selenium.WebDriver;
 import axtion_interface_Reseller.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -27,9 +29,16 @@ public  class BaseClass extends ActionClass_Atus {
 
 	@BeforeClass
 	public void beforClass() {
-		String browser="Chrome";
+		
+		String browser=System.getProperty("browser")!=null?System.getProperty("browser"):PropertyFileProg.adminpropertyFile("browser");
+//		String CodeBrowser="chrome";
+		
 		if (browser.equalsIgnoreCase("chrome")) {
-			driver=new ChromeDriver();
+			
+			// To Run test in headless mode
+			ChromeOptions opt=new ChromeOptions();
+			opt.addArguments("headless");
+			driver=new ChromeDriver(opt);
 		}
 		
 		else
@@ -42,6 +51,7 @@ public  class BaseClass extends ActionClass_Atus {
 
 	@AfterClass
 	public void afterClass() {
+		driver.quit();
 	}
 
 	@BeforeMethod
@@ -60,7 +70,7 @@ public  class BaseClass extends ActionClass_Atus {
 	@AfterMethod
 	public void afterMethod() {
 		
-		driver.quit();
+		
 	}
 
 }
