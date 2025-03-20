@@ -16,10 +16,10 @@ import org.testng.annotations.BeforeSuite;
 
 public  class BaseClass extends ActionClass_Atus {
 	public WebDriver driver;
-
+    public String browser;
 	@BeforeSuite
 	public void beforesuit() {
-
+		 browser=System.getProperty("browser")!=null?System.getProperty("browser"):"edge";
 	}
 
 	@AfterSuite
@@ -30,7 +30,8 @@ public  class BaseClass extends ActionClass_Atus {
 	@BeforeClass
 	public void beforClass() {
 		
-		String browser=System.getProperty("browser")!=null?System.getProperty("browser"):PropertyFileProg.adminpropertyFile("browser");
+		
+		
 //		String CodeBrowser="chrome";
 		
 		if (browser.equalsIgnoreCase("chrome")) {

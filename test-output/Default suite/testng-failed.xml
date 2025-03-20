@@ -5,11 +5,11 @@
     <classes>
       <class name="ci.com.HomePageTest">
         <methods>
+          <include name="failtest"/>
           <include name="afterClass"/>
           <include name="beforesuit"/>
           <include name="afterMethod"/>
           <include name="afteresuit"/>
-          <include name="linkTest"/>
           <include name="beforeMethod"/>
           <include name="beforClass"/>
         </methods>

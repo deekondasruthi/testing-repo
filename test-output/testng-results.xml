@@ -1,63 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-18T16:25:56 IST" name="Suite" finished-at="2025-03-18T16:26:13 IST" duration-ms="16862">
+  <suite started-at="2025-03-20T18:02:05 IST" name="Default suite" finished-at="2025-03-20T18:02:05 IST" duration-ms="122">
     <groups>
     </groups>
-    <test started-at="2025-03-18T16:25:56 IST" name="Test" finished-at="2025-03-18T16:26:13 IST" duration-ms="16862">
-      <class name="ci.com.TestClass">
-        <test-method is-config="true" signature="beforesuit()[pri:0, instance:ci.com.TestClass@52719fb6]" started-at="2025-03-18T16:25:56 IST" name="beforesuit" finished-at="2025-03-18T16:25:56 IST" duration-ms="16" status="PASS">
+    <test started-at="2025-03-20T18:02:05 IST" name="Default test" finished-at="2025-03-20T18:02:05 IST" duration-ms="122">
+      <class name="ci.com.HomePageTest">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:ci.com.HomePageTest@537f60bf]" started-at="2025-03-20T18:02:05 IST" name="beforesuit" finished-at="2025-03-20T18:02:05 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuit -->
-        <test-method is-config="true" signature="beforClass()[pri:0, instance:ci.com.TestClass@52719fb6]" started-at="2025-03-18T16:25:56 IST" name="beforClass" finished-at="2025-03-18T16:26:00 IST" duration-ms="4228" status="PASS">
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:ci.com.HomePageTest@537f60bf]" started-at="2025-03-20T18:02:05 IST" name="beforClass" finished-at="2025-03-20T18:02:05 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "this.browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "this.browser" is null
+at genaral.BaseClass.beforClass(BaseClass.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.TestClass@52719fb6]" started-at="2025-03-18T16:26:01 IST" name="beforeMethod" finished-at="2025-03-18T16:26:05 IST" duration-ms="4719" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.HomePageTest@537f60bf]" started-at="2025-03-20T18:02:05 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1742473925195" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test()[pri:0, instance:ci.com.TestClass@52719fb6]" started-at="2025-03-18T16:26:05 IST" name="test" finished-at="2025-03-18T16:26:05 IST" duration-ms="8" status="PASS">
+        <test-method signature="failtest()[pri:0, instance:ci.com.HomePageTest@537f60bf]" started-at="2025-03-20T18:02:05 IST" name="failtest" finished-at="2025-03-20T18:02:05 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "this.browser" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "this.browser" is null
+at genaral.BaseClass.beforClass(BaseClass.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.TestClass@52719fb6]" started-at="2025-03-18T16:26:05 IST" name="afterMethod" finished-at="2025-03-18T16:26:06 IST" duration-ms="465" status="PASS">
+        </test-method> <!-- failtest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.HomePageTest@537f60bf]" started-at="2025-03-20T18:02:05 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1742473925210" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:ci.com.TestClass@52719fb6]" started-at="2025-03-18T16:26:06 IST" name="afterClass" finished-at="2025-03-18T16:26:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ci.com.HomePageTest@537f60bf]" started-at="2025-03-20T18:02:05 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1742473925216" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afteresuit()[pri:0, instance:ci.com.TestClass@52719fb6]" started-at="2025-03-18T16:26:13 IST" name="afteresuit" finished-at="2025-03-18T16:26:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afteresuit()[pri:0, instance:ci.com.HomePageTest@537f60bf]" started-at="2025-03-20T18:02:05 IST" name="afteresuit" finished-at="2025-03-20T18:02:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afteresuit -->
-      </class> <!-- ci.com.TestClass -->
-      <class name="ci.com.HomePageTest">
-        <test-method is-config="true" signature="beforClass()[pri:0, instance:ci.com.HomePageTest@65c7a252]" started-at="2025-03-18T16:26:06 IST" name="beforClass" finished-at="2025-03-18T16:26:08 IST" duration-ms="2446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.HomePageTest@65c7a252]" started-at="2025-03-18T16:26:08 IST" name="beforeMethod" finished-at="2025-03-18T16:26:12 IST" duration-ms="3583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="linkTest()[pri:0, instance:ci.com.HomePageTest@65c7a252]" started-at="2025-03-18T16:26:12 IST" name="linkTest" finished-at="2025-03-18T16:26:13 IST" duration-ms="909" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.HomePageTest@65c7a252]" started-at="2025-03-18T16:26:13 IST" name="afterMethod" finished-at="2025-03-18T16:26:13 IST" duration-ms="425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:ci.com.HomePageTest@65c7a252]" started-at="2025-03-18T16:26:13 IST" name="afterClass" finished-at="2025-03-18T16:26:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
       </class> <!-- ci.com.HomePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
