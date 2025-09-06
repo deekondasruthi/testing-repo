@@ -1,6 +1,10 @@
 axtion_interface_Reseller\ActionClass_Atus.class
 actionDriver\ActionInterface.class
-genaral\BaseClass.class
 utilities\PropertyFileProg.class
+PageObjectFargin\CampaignModule.class
+genaral\BaseClass.class
+PageObjectFargin\EntityOnboardModule.class
+PageObjectFargin\ClassObjectCreation.class
+PageObjectFargin\HomePage.class
 pageObject\HomePage.class
 pageObject\LoginPage.class

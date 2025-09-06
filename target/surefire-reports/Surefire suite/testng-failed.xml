@@ -3,13 +3,24 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="ci.com.TestClass">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforesuit"/>
+          <include name="test"/>
+          <include name="afterMethod"/>
+          <include name="afteresuit"/>
+          <include name="beforClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ci.com.TestClass -->
       <class name="ci.com.HomePageTest">
         <methods>
           <include name="afterClass"/>
-          <include name="failtest"/>
           <include name="beforesuit"/>
           <include name="afterMethod"/>
           <include name="afteresuit"/>
+          <include name="linkTest"/>
           <include name="beforeMethod"/>
           <include name="beforClass"/>
         </methods>
