@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ci.com.HomePageTest">
+      <class name="fargin.Campigian">
         <methods>
-          <include name="failtest"/>
           <include name="afterClass"/>
           <include name="beforesuit"/>
+          <include name="dummy"/>
           <include name="afterMethod"/>
           <include name="afteresuit"/>
           <include name="beforeMethod"/>
           <include name="beforClass"/>
         </methods>
-      </class> <!-- ci.com.HomePageTest -->
+      </class> <!-- fargin.Campigian -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

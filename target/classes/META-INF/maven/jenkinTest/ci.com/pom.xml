@@ -28,6 +28,34 @@
 			<version>7.11.0</version>
 			
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>6.3.1</version>
+</dependency>
+		
+
+	<!-- https://mvnrepository.com/artifact/com.aspose/aspose-ocr -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>25.4.0</version>
+</dependency>
+
+
+
+  <dependency>
+    <groupId>org.bytedeco</groupId>
+    <artifactId>javacv-platform</artifactId>
+    <version>1.5.8</version>
+  </dependency>
+  <dependency>
+    <groupId>net.sourceforge.tess4j</groupId>
+    <artifactId>tess4j</artifactId>
+    <version>5.4.0</version>
+  </dependency>
 
 	</dependencies>
 
@@ -69,26 +97,14 @@
 
 		</profile>
 		
-		<profile>
-			<id>testng1file</id>
-			<build>
-				<plugins>
-
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-surefire-plugin</artifactId>
-						<version>3.5.2</version>
-						<configuration>
-							<suiteXmlFiles>
-								<suiteXmlFile>testng1.xml</suiteXmlFile>
-							</suiteXmlFiles>
-						</configuration>
-					</plugin>
-
-				</plugins>
-			</build>
-
-		</profile>
+		
 	</profiles>
+	
+			<repositories>
+    <repository>
+        <id>Aspose</id>
+        <url>https://repository.aspose.com/repo/</url>
+    </repository>
+</repositories>
 
 </project>

@@ -362,7 +362,7 @@ public class ActionClass_Atus implements ActionInterface {
 	@Override
 	public void scrollintoView(WebDriver driver, boolean bool, WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeAsyncScript("arguments[0].scrollIntoView(" + bool + ");", element);
+		js.executeScript("arguments[0].scrollIntoView(" + bool + ");", element);
 	}
 
 	@Override
@@ -495,13 +495,18 @@ public class ActionClass_Atus implements ActionInterface {
 	@Override
 	public boolean launchUrl(WebDriver driver, String url) {
 		boolean bool;
-		if (driver.getClass().equals(url)) {
+		
+	
+		if (driver.getCurrentUrl().equals(url)) {
 			bool = true;
 		} else
 			bool = false;
 		return bool;
 	}
 
+	
+	
+	
 	@Override
 	public String getCurrentURL(WebDriver driver) {
 

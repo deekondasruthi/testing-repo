@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	
 	
+	
+
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
@@ -15,9 +17,8 @@ public class HomePage {
 	@FindBy(xpath = "//a[.='Home']")
 	private WebElement hometext;
 	
-	public WebElement getHometext() {
-		return hometext;
-	}
+//	public webElemet
+	
 
 
 }

@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-20T18:25:39 IST" name="Surefire suite" finished-at="2025-03-20T18:25:57 IST" duration-ms="18103">
+  <suite started-at="2025-03-21T15:26:41 IST" name="Surefire suite" finished-at="2025-03-21T15:26:58 IST" duration-ms="17778">
     <groups>
     </groups>
-    <test started-at="2025-03-20T18:25:39 IST" name="Surefire test" finished-at="2025-03-20T18:25:57 IST" duration-ms="18103">
+    <test started-at="2025-03-21T15:26:41 IST" name="Surefire test" finished-at="2025-03-21T15:26:58 IST" duration-ms="17778">
       <class name="ci.com.TestClass">
-        <test-method is-config="true" signature="beforClass()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-20T18:25:51 IST" name="beforClass" finished-at="2025-03-20T18:25:53 IST" duration-ms="2436" status="PASS">
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-21T15:26:53 IST" name="beforClass" finished-at="2025-03-21T15:26:55 IST" duration-ms="1917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-20T18:25:54 IST" name="beforeMethod" finished-at="2025-03-20T18:25:57 IST" duration-ms="3097" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-21T15:26:55 IST" name="beforeMethod" finished-at="2025-03-21T15:26:58 IST" duration-ms="2949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-20T18:25:57 IST" name="test" finished-at="2025-03-20T18:25:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="test()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-21T15:26:58 IST" name="test" finished-at="2025-03-21T15:26:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-20T18:25:57 IST" name="afterMethod" finished-at="2025-03-20T18:25:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-21T15:26:58 IST" name="afterMethod" finished-at="2025-03-21T15:26:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-20T18:25:57 IST" name="afterClass" finished-at="2025-03-20T18:25:57 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ci.com.TestClass@441772e]" started-at="2025-03-21T15:26:58 IST" name="afterClass" finished-at="2025-03-21T15:26:58 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- ci.com.TestClass -->
       <class name="ci.com.HomePageTest">
-        <test-method is-config="true" signature="beforesuit()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:39 IST" name="beforesuit" finished-at="2025-03-20T18:25:39 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:41 IST" name="beforesuit" finished-at="2025-03-21T15:26:41 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuit -->
-        <test-method is-config="true" signature="beforClass()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:39 IST" name="beforClass" finished-at="2025-03-20T18:25:42 IST" duration-ms="3205" status="PASS">
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:41 IST" name="beforClass" finished-at="2025-03-21T15:26:44 IST" duration-ms="3369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:42 IST" name="beforeMethod" finished-at="2025-03-20T18:25:47 IST" duration-ms="4504" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:44 IST" name="beforeMethod" finished-at="2025-03-21T15:26:49 IST" duration-ms="5229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="failtest()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:47 IST" name="failtest" finished-at="2025-03-20T18:25:47 IST" duration-ms="923" status="FAIL">
+        <test-method signature="failtest()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:49 IST" name="failtest" finished-at="2025-03-21T15:26:50 IST" duration-ms="1088" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -90,27 +90,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:47 IST" name="afterMethod" finished-at="2025-03-20T18:25:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:50 IST" name="afterMethod" finished-at="2025-03-21T15:26:50 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:47 IST" name="beforeMethod" finished-at="2025-03-20T18:25:50 IST" duration-ms="2532" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:50 IST" name="beforeMethod" finished-at="2025-03-21T15:26:53 IST" duration-ms="2181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="linkTest()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:50 IST" name="linkTest" finished-at="2025-03-20T18:25:51 IST" duration-ms="740" status="PASS">
+        <test-method signature="linkTest()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:53 IST" name="linkTest" finished-at="2025-03-21T15:26:53 IST" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:51 IST" name="afterMethod" finished-at="2025-03-20T18:25:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:53 IST" name="afterMethod" finished-at="2025-03-21T15:26:53 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:51 IST" name="afterClass" finished-at="2025-03-20T18:25:51 IST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:53 IST" name="afterClass" finished-at="2025-03-21T15:26:53 IST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afteresuit()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-20T18:25:57 IST" name="afteresuit" finished-at="2025-03-20T18:25:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afteresuit()[pri:0, instance:ci.com.HomePageTest@59fd97a8]" started-at="2025-03-21T15:26:59 IST" name="afteresuit" finished-at="2025-03-21T15:26:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afteresuit -->

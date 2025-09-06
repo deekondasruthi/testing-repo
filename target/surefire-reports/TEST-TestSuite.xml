@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.263" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.145" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire600712868614599416\surefirebooter-20250320182535633_3.jar C:\Users\DELL\AppData\Local\Temp\surefire600712868614599416 2025-03-20T18-25-35_385-jvmRun1 surefire-20250320182535633_1tmp surefire_0-20250320182535633_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire17749598127032810062\surefirebooter-20250321152637153_3.jar C:\Users\DELL\AppData\Local\Temp\surefire17749598127032810062 2025-03-21T15-26-36_914-jvmRun1 surefire-20250321152637153_1tmp surefire_0-20250321152637153_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\DELL\eclipse-workspace\ci.com\target\test-classes;C:\Users\DELL\eclipse-workspace\ci.com\target\classes;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\DELL\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\DELL\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\DELL\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\DELL\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\DELL\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire600712868614599416\surefirebooter-20250320182535633_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire17749598127032810062\surefirebooter-20250321152637153_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -40,7 +40,6 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\DELL\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -59,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="failtest" classname="ci.com.HomePageTest" time="0.933">
+  <testcase name="failtest" classname="ci.com.HomePageTest" time="1.1">
     <failure message="The following asserts failed:&#10;	expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 The following asserts failed:
 	expected [false] but found [true]
@@ -103,18 +102,18 @@ The following asserts failed:
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Mar 20, 2025 6:25:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 21, 2025 3:26:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="linkTest" classname="ci.com.HomePageTest" time="0.735">
+  <testcase name="linkTest" classname="ci.com.HomePageTest" time="0.359">
     <system-out><![CDATA[Home
 ]]></system-out>
   </testcase>
-  <testcase name="test" classname="ci.com.TestClass" time="0.008">
+  <testcase name="test" classname="ci.com.TestClass" time="0.003">
     <system-out><![CDATA[helow
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 6:25:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 3:26:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
